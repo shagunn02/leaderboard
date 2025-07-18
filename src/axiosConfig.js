@@ -1,10 +1,11 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://tourmaline-gnome-b8c31e.netlify.app////api/users",
+  baseURL: "https://points-distribution-backend.onrender.com/api", 
   headers: {
     "Content-Type": "application/json",
   },
 });
+
 
 export default axiosInstance;
